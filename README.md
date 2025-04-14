@@ -63,8 +63,9 @@ This lab demonstrates how to manage user access efficiently in Okta using **grou
 - `Finance and Accounting – Employees Only`
 
 **Expression Used**:
-```text
-(user.department=="Finance" || user.department=="Accounting") && user.userType=="Employee"
+ 
+`(user.department=="Finance" || user.department=="Accounting") && user.userType=="Employee"`
 
 📸 Screenshot:  
 ![System Log - Rule Applied](screenshots/system-log-group-membership.png)
+
